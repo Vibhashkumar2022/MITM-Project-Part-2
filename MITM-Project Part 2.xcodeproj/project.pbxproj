@@ -21,12 +21,12 @@
 		3B82A9BA2BB7E4D300DEE275 /* NM_URLSessionWithKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B82A9A52BB7E4D300DEE275 /* NM_URLSessionWithKey.swift */; };
 		3B82A9BB2BB7E4D300DEE275 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B82A9A72BB7E4D300DEE275 /* ListViewModel.swift */; };
 		3B82A9BC2BB7E4D300DEE275 /* ListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B82A9A92BB7E4D300DEE275 /* ListDataModel.swift */; };
-		3B82A9BD2BB7E4D300DEE275 /* certificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = 3B82A9AB2BB7E4D300DEE275 /* certificate.cer */; };
-		3B82A9BE2BB7E4D300DEE275 /* vercel_public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 3B82A9AC2BB7E4D300DEE275 /* vercel_public_key.pem */; };
-		3B82A9BF2BB7E4D300DEE275 /* certificate.pem in Resources */ = {isa = PBXBuildFile; fileRef = 3B82A9AD2BB7E4D300DEE275 /* certificate.pem */; };
-		3B82A9C12BB7E4D300DEE275 /* vercel.der in Resources */ = {isa = PBXBuildFile; fileRef = 3B82A9AF2BB7E4D300DEE275 /* vercel.der */; };
 		3B82A9C22BB7E4D300DEE275 /* ListTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B82A9B22BB7E4D300DEE275 /* ListTableViewAdapter.swift */; };
 		3B82A9C42BB7E5C100DEE275 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B82A9C32BB7E5C100DEE275 /* Constant.swift */; };
+		3B82A9C92BB80ECD00DEE275 /* certificate.pem in Resources */ = {isa = PBXBuildFile; fileRef = 3B82A9C52BB80ECD00DEE275 /* certificate.pem */; };
+		3B82A9CA2BB80ECD00DEE275 /* vercel_public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 3B82A9C62BB80ECD00DEE275 /* vercel_public_key.pem */; };
+		3B82A9CB2BB80ECD00DEE275 /* certificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = 3B82A9C72BB80ECD00DEE275 /* certificate.cer */; };
+		3B82A9CC2BB80ECD00DEE275 /* vercel.der in Resources */ = {isa = PBXBuildFile; fileRef = 3B82A9C82BB80ECD00DEE275 /* vercel.der */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,12 +46,12 @@
 		3B82A9A52BB7E4D300DEE275 /* NM_URLSessionWithKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NM_URLSessionWithKey.swift; sourceTree = "<group>"; };
 		3B82A9A72BB7E4D300DEE275 /* ListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		3B82A9A92BB7E4D300DEE275 /* ListDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDataModel.swift; sourceTree = "<group>"; };
-		3B82A9AB2BB7E4D300DEE275 /* certificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = certificate.cer; sourceTree = "<group>"; };
-		3B82A9AC2BB7E4D300DEE275 /* vercel_public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vercel_public_key.pem; sourceTree = "<group>"; };
-		3B82A9AD2BB7E4D300DEE275 /* certificate.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = certificate.pem; sourceTree = "<group>"; };
-		3B82A9AF2BB7E4D300DEE275 /* vercel.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = vercel.der; sourceTree = "<group>"; };
 		3B82A9B22BB7E4D300DEE275 /* ListTableViewAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewAdapter.swift; sourceTree = "<group>"; };
 		3B82A9C32BB7E5C100DEE275 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		3B82A9C52BB80ECD00DEE275 /* certificate.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = certificate.pem; sourceTree = "<group>"; };
+		3B82A9C62BB80ECD00DEE275 /* vercel_public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vercel_public_key.pem; sourceTree = "<group>"; };
+		3B82A9C72BB80ECD00DEE275 /* certificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = certificate.cer; sourceTree = "<group>"; };
+		3B82A9C82BB80ECD00DEE275 /* vercel.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = vercel.der; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,10 +149,10 @@
 		3B82A9AA2BB7E4D300DEE275 /* Certificate */ = {
 			isa = PBXGroup;
 			children = (
-				3B82A9AB2BB7E4D300DEE275 /* certificate.cer */,
-				3B82A9AC2BB7E4D300DEE275 /* vercel_public_key.pem */,
-				3B82A9AD2BB7E4D300DEE275 /* certificate.pem */,
-				3B82A9AF2BB7E4D300DEE275 /* vercel.der */,
+				3B82A9C72BB80ECD00DEE275 /* certificate.cer */,
+				3B82A9C52BB80ECD00DEE275 /* certificate.pem */,
+				3B82A9C62BB80ECD00DEE275 /* vercel_public_key.pem */,
+				3B82A9C82BB80ECD00DEE275 /* vercel.der */,
 				3B82A9B02BB7E4D300DEE275 /* PublicKeys */,
 			);
 			path = Certificate;
@@ -232,13 +232,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B82A9942BB7E4A000DEE275 /* LaunchScreen.storyboard in Resources */,
-				3B82A9BD2BB7E4D300DEE275 /* certificate.cer in Resources */,
-				3B82A9BE2BB7E4D300DEE275 /* vercel_public_key.pem in Resources */,
+				3B82A9CB2BB80ECD00DEE275 /* certificate.cer in Resources */,
 				3B82A9B52BB7E4D300DEE275 /* SatelliteTableViewCell.xib in Resources */,
-				3B82A9BF2BB7E4D300DEE275 /* certificate.pem in Resources */,
+				3B82A9CA2BB80ECD00DEE275 /* vercel_public_key.pem in Resources */,
+				3B82A9CC2BB80ECD00DEE275 /* vercel.der in Resources */,
 				3B82A9912BB7E4A000DEE275 /* Assets.xcassets in Resources */,
-				3B82A9C12BB7E4D300DEE275 /* vercel.der in Resources */,
 				3B82A98F2BB7E49F00DEE275 /* Main.storyboard in Resources */,
+				3B82A9C92BB80ECD00DEE275 /* certificate.pem in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
