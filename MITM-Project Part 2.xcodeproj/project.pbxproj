@@ -24,7 +24,6 @@
 		3B82A9BD2BB7E4D300DEE275 /* certificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = 3B82A9AB2BB7E4D300DEE275 /* certificate.cer */; };
 		3B82A9BE2BB7E4D300DEE275 /* vercel_public_key.pem in Resources */ = {isa = PBXBuildFile; fileRef = 3B82A9AC2BB7E4D300DEE275 /* vercel_public_key.pem */; };
 		3B82A9BF2BB7E4D300DEE275 /* certificate.pem in Resources */ = {isa = PBXBuildFile; fileRef = 3B82A9AD2BB7E4D300DEE275 /* certificate.pem */; };
-		3B82A9C02BB7E4D300DEE275 /* private.key in Resources */ = {isa = PBXBuildFile; fileRef = 3B82A9AE2BB7E4D300DEE275 /* private.key */; };
 		3B82A9C12BB7E4D300DEE275 /* vercel.der in Resources */ = {isa = PBXBuildFile; fileRef = 3B82A9AF2BB7E4D300DEE275 /* vercel.der */; };
 		3B82A9C22BB7E4D300DEE275 /* ListTableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B82A9B22BB7E4D300DEE275 /* ListTableViewAdapter.swift */; };
 		3B82A9C42BB7E5C100DEE275 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B82A9C32BB7E5C100DEE275 /* Constant.swift */; };
@@ -50,7 +49,6 @@
 		3B82A9AB2BB7E4D300DEE275 /* certificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = certificate.cer; sourceTree = "<group>"; };
 		3B82A9AC2BB7E4D300DEE275 /* vercel_public_key.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vercel_public_key.pem; sourceTree = "<group>"; };
 		3B82A9AD2BB7E4D300DEE275 /* certificate.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = certificate.pem; sourceTree = "<group>"; };
-		3B82A9AE2BB7E4D300DEE275 /* private.key */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = private.key; sourceTree = "<group>"; };
 		3B82A9AF2BB7E4D300DEE275 /* vercel.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = vercel.der; sourceTree = "<group>"; };
 		3B82A9B22BB7E4D300DEE275 /* ListTableViewAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewAdapter.swift; sourceTree = "<group>"; };
 		3B82A9C32BB7E5C100DEE275 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
@@ -154,7 +152,6 @@
 				3B82A9AB2BB7E4D300DEE275 /* certificate.cer */,
 				3B82A9AC2BB7E4D300DEE275 /* vercel_public_key.pem */,
 				3B82A9AD2BB7E4D300DEE275 /* certificate.pem */,
-				3B82A9AE2BB7E4D300DEE275 /* private.key */,
 				3B82A9AF2BB7E4D300DEE275 /* vercel.der */,
 				3B82A9B02BB7E4D300DEE275 /* PublicKeys */,
 			);
@@ -239,7 +236,6 @@
 				3B82A9BE2BB7E4D300DEE275 /* vercel_public_key.pem in Resources */,
 				3B82A9B52BB7E4D300DEE275 /* SatelliteTableViewCell.xib in Resources */,
 				3B82A9BF2BB7E4D300DEE275 /* certificate.pem in Resources */,
-				3B82A9C02BB7E4D300DEE275 /* private.key in Resources */,
 				3B82A9912BB7E4A000DEE275 /* Assets.xcassets in Resources */,
 				3B82A9C12BB7E4D300DEE275 /* vercel.der in Resources */,
 				3B82A98F2BB7E49F00DEE275 /* Main.storyboard in Resources */,

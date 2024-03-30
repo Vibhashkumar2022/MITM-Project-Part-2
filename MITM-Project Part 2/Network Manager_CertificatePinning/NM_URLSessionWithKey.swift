@@ -7,8 +7,6 @@
 import Foundation
 import CommonCrypto
 
-typealias Handler<T> = (Result <T, DataError> )-> Void
-
 enum DataError : Error {
     case invalidResponse
     case invalidURL
@@ -19,7 +17,6 @@ enum DataError : Error {
 final class NetworkManagerWithPublicKeys : NSObject {
     static let shared = NetworkManagerWithPublicKeys()
     private var session : URLSession!
-    
     static let localPublicKey = "u/joKCLcfT2khmv/jPpWcsbUx1mBQ1PY0QXYg5cHonE="
 
     private let rsa2048Asn1Header:[UInt8] = [
@@ -32,7 +29,7 @@ final class NetworkManagerWithPublicKeys : NSObject {
         session = URLSession.init(configuration: .ephemeral,delegate: self, delegateQueue: nil)
     }
     
-    // MARK: Certificate pinning by URL Session
+    // MARK: Certificate pinning by URL Session using Assync and Await for Network Call
     
     func request<T:Decodable>(url:URL?) async throws -> T {
         guard let url else {
