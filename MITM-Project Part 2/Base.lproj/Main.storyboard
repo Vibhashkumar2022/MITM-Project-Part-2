@@ -1,24 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--List View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ListViewController" customModule="MITM_Project_Part_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="4cR-QS-A3r">
+                                <rect key="frame" x="20" y="75.666666666666671" width="353" height="32"/>
+                                <segments>
+                                    <segment title="Certificate Pinnig "/>
+                                    <segment title="Public Key Pinning"/>
+                                </segments>
+                                <connections>
+                                    <action selector="pinningTypeSelection:" destination="BYZ-38-t0r" eventType="valueChanged" id="BWN-9N-W6c"/>
+                                </connections>
+                            </segmentedControl>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="2hS-fs-Gcj">
+                                <rect key="frame" x="0.0" y="106.66666666666669" width="393" height="711.33333333333326"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pinning Status" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ndN-gY-kPN">
+                                <rect key="frame" x="20" y="58.999999999999993" width="353" height="15.666666666666664"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ndN-gY-kPN" secondAttribute="trailing" constant="20" id="66d-B9-3V1"/>
+                            <constraint firstItem="4cR-QS-A3r" firstAttribute="top" secondItem="ndN-gY-kPN" secondAttribute="bottom" constant="1" id="DgH-xu-6zc"/>
+                            <constraint firstItem="ndN-gY-kPN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="GZB-95-S3S"/>
+                            <constraint firstItem="2hS-fs-Gcj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Pdz-Dx-PFf"/>
+                            <constraint firstItem="4cR-QS-A3r" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="WaV-1c-Rmd"/>
+                            <constraint firstItem="4cR-QS-A3r" firstAttribute="top" secondItem="ndN-gY-kPN" secondAttribute="bottom" constant="1" id="fEv-yX-d6x"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2hS-fs-Gcj" secondAttribute="trailing" id="hMT-NA-xc2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4cR-QS-A3r" secondAttribute="trailing" constant="20" id="kig-iP-acP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2hS-fs-Gcj" secondAttribute="bottom" id="wYS-Lh-rSI"/>
+                            <constraint firstItem="ndN-gY-kPN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="wj1-fR-hql"/>
+                            <constraint firstItem="2hS-fs-Gcj" firstAttribute="top" secondItem="4cR-QS-A3r" secondAttribute="bottom" id="zU2-Lw-cf3"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="SSLPinningType" destination="4cR-QS-A3r" id="KAA-HA-nlJ"/>
+                        <outlet property="listView" destination="2hS-fs-Gcj" id="Le9-FU-pSU"/>
+                        <outlet property="pinnedStatus" destination="ndN-gY-kPN" id="a82-U4-EfS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-108" y="4"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
