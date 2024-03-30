@@ -55,9 +55,7 @@ final class ListViewAdapter : NSObject {
     
     
     private func loadData() {
-        DispatchQueue.main.async {
             self.tableView.reloadData()
-        }
     }
 }
     //MARK: UITableViewDataSource

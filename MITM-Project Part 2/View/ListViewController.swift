@@ -17,11 +17,15 @@ final class ListViewController: UIViewController {
     //MARK: ViewDidLoad
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.configureTableView()
-        self.getApiResponse()
+        self.inititateViewModel()
         // Do any additional setup after loading the view.
     }
     
+    private func inititateViewModel() {
+        self.viewModel.viewDelegate = self
+        configureTableView()
+        self.getApiResponse()
+    }
     
     //MARK: Configure Tableview Adapter
     private func configureTableView(){
@@ -42,18 +46,16 @@ final class ListViewController: UIViewController {
     
 }
 
-extension ListViewController {
+extension ListViewController : ViewServices {
+    
+    func reloadTableView() {
+        self.adapter?.configureDataSourceForSelection()
+    }
+    
     //MARK: Configure Datasource for Adapter
    private func getApiResponse(){
         self.viewModel.customerSatelliteDataSource = []
-        self.adapter?.configureDataSourceForSelection()
-        DispatchQueue.main.asyncAfter(deadline: .now()+1) {
-            self.viewModel.getResponseFromApi { response, error in
-                self.updateStatusLabel(isSuccess: (error == nil))
-                self.viewModel.convertListSatelliteResponseCellViewModel(dataModel: response?.satellites)
-                self.adapter?.configureDataSourceForSelection()
-            }
-        }
+        self.viewModel.getResponseFromApi()
     }
     
     func updateStatusLabel(isSuccess : Bool) {

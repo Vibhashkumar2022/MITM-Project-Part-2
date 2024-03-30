@@ -3,4 +3,290 @@
    uuid = "8C743A58-A552-43C3-A3E7-3467F1034601"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17B89F81-E113-4297-9545-A325D3CDB2DD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MITM-Project Part 2/ViewModel/ListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "getResponseFromApi()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "17B89F81-E113-4297-9545-A325D3CDB2DD - 3f52285d7b3c5d75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in MITM_Project_Part_2.ListViewModel.getResponseFromApi() -&gt; ()"
+                  moduleName = "MITM-Project Part 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhashkumar/Documents/ProjectFolder/MITM-Project%20Part%202/MITM-Project%20Part%202/ViewModel/ListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "17B89F81-E113-4297-9545-A325D3CDB2DD - f72f25d6c330f772"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in MITM_Project_Part_2.ListViewModel.getResponseFromApi() -&gt; ()"
+                  moduleName = "MITM-Project Part 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhashkumar/Documents/ProjectFolder/MITM-Project%20Part%202/MITM-Project%20Part%202/ViewModel/ListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "17B89F81-E113-4297-9545-A325D3CDB2DD - 3f52285d7b3c5d75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in MITM_Project_Part_2.ListViewModel.getResponseFromApi() -&gt; ()"
+                  moduleName = "MITM-Project Part 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhashkumar/Documents/ProjectFolder/MITM-Project%20Part%202/MITM-Project%20Part%202/ViewModel/ListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "120">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9EC9DCFF-59C6-4102-8F29-E4ADEE425A16"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MITM-Project Part 2/View/ListViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "reloadTableView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9EC9DCFF-59C6-4102-8F29-E4ADEE425A16 - 380843d3a0b3e892"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MITM_Project_Part_2.ListViewController.reloadTableView() -&gt; ()"
+                  moduleName = "MITM-Project Part 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhashkumar/Documents/ProjectFolder/MITM-Project%20Part%202/MITM-Project%20Part%202/View/ListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "9EC9DCFF-59C6-4102-8F29-E4ADEE425A16 - 380843d3a0b3e8b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MITM_Project_Part_2.ListViewController.reloadTableView() -&gt; ()"
+                  moduleName = "MITM-Project Part 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhashkumar/Documents/ProjectFolder/MITM-Project%20Part%202/MITM-Project%20Part%202/View/ListViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "07893082-BCBB-4673-80AA-0779832F5C2F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MITM-Project Part 2/Adapter/ListTableViewAdapter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "07893082-BCBB-4673-80AA-0779832F5C2F - 6ca16ad195dc2418"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MITM_Project_Part_2.ListViewAdapter.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "MITM-Project Part 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhashkumar/Documents/ProjectFolder/MITM-Project%20Part%202/MITM-Project%20Part%202/Adapter/ListTableViewAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "07893082-BCBB-4673-80AA-0779832F5C2F - 6ca16ad195dc245a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MITM_Project_Part_2.ListViewAdapter.tableView(_: __C.UITableView, numberOfRowsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "MITM-Project Part 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhashkumar/Documents/ProjectFolder/MITM-Project%20Part%202/MITM-Project%20Part%202/Adapter/ListTableViewAdapter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF825C59-D5DA-4076-9F48-EAC6A5AD2388"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MITM-Project Part 2/Adapter/ListTableViewAdapter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "configureDataSourceForSelection()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "319DC13B-23D8-4DD7-B068-1FCA8C988CFB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MITM-Project Part 2/ViewModel/ListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "getResponseFromApi()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "319DC13B-23D8-4DD7-B068-1FCA8C988CFB - 3f52285d7b3c5d54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in MITM_Project_Part_2.ListViewModel.getResponseFromApi() -&gt; ()"
+                  moduleName = "MITM-Project Part 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhashkumar/Documents/ProjectFolder/MITM-Project%20Part%202/MITM-Project%20Part%202/ViewModel/ListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "319DC13B-23D8-4DD7-B068-1FCA8C988CFB - af680741eb050956"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in MITM_Project_Part_2.ListViewModel.getResponseFromApi() -&gt; ()"
+                  moduleName = "MITM-Project Part 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhashkumar/Documents/ProjectFolder/MITM-Project%20Part%202/MITM-Project%20Part%202/ViewModel/ListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "319DC13B-23D8-4DD7-B068-1FCA8C988CFB - 7f209ea4f5dcc45e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in MITM_Project_Part_2.ListViewModel.getResponseFromApi() -&gt; ()"
+                  moduleName = "MITM-Project Part 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhashkumar/Documents/ProjectFolder/MITM-Project%20Part%202/MITM-Project%20Part%202/ViewModel/ListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "319DC13B-23D8-4DD7-B068-1FCA8C988CFB - 3f52285d7b3c5d54"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in MITM_Project_Part_2.ListViewModel.getResponseFromApi() -&gt; ()"
+                  moduleName = "MITM-Project Part 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhashkumar/Documents/ProjectFolder/MITM-Project%20Part%202/MITM-Project%20Part%202/ViewModel/ListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "319DC13B-23D8-4DD7-B068-1FCA8C988CFB - f72f25d6c330f753"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in MITM_Project_Part_2.ListViewModel.getResponseFromApi() -&gt; ()"
+                  moduleName = "MITM-Project Part 2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vibhashkumar/Documents/ProjectFolder/MITM-Project%20Part%202/MITM-Project%20Part%202/ViewModel/ListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ADF9668F-7EC4-4DA1-B4FA-679965530CF9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MITM-Project Part 2/Network Manager_CertificatePinning/NM_URLSessionWithKey.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "init()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

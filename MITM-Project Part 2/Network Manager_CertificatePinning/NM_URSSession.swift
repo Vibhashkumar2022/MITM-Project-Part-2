@@ -17,29 +17,17 @@ final class NetworkManager : NSObject {
     }
     
     // MARK: Certificate pinning by URL Session
-    func request<T:Decodable>(url:URL?,expecting:T.Type, completion:@escaping(_ data:T?, _ error : Error?)->()){
+    func request<T:Decodable>(url:URL?) async throws -> T {
         guard let url else {
-            print("cannot form url")
-            return
+            throw DataError.invalidURL
         }
-        Task{
-            self.session.dataTask(with: url) { data, response, error in
-                if let error {
-                    completion(nil,error)
-                }
-                guard let data else {
-                    print("something went wrong")
-                    return
-                }
-                do {
-                    let decoder = JSONDecoder()
-                    let response = try decoder.decode(T.self, from: data)
-                    completion(response,nil)
-                }catch{
-                    completion(nil,error)
-                }
-            }.resume()
+        
+        let (data, response) = try await session.data(from: url)
+        guard (response as? HTTPURLResponse)?.statusCode == 200 else {
+            throw DataError.invalidResponse
         }
+        
+        return try JSONDecoder().decode(T.self, from: data)
     }
 }
     
